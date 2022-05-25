@@ -1,99 +1,210 @@
+<!DOCTYPE html>
 <html>
-
-<head>
-  <title>welcome to my website</title>
-  <link rel="stylesheet" href="/style.css" />
-  <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" /> -->
-</head>
-
-<body>
-
-  <!-- START NAV -->
-
-  <nav id="navbar" class="nav">
-    <ul class="nav-list">
-      <li>
-        <a href="#welcome-section">About</a>
-      </li>
-      <li>
-        <a href="#projects">Project</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- END NAV -->
-
-  <!-- START WELCOME SECTION -->
-
-  <section id="welcome-section" class="welcome-section">
-    <h1>Hi! I am Renhe</h1>
-    <p>a postgraduate student</p>
-  </section>
-
-  <!-- END WELCOME SECTION -->
-
-  <!-- START PROJECTS SECTION -->
-
-  <section id="projects" class="projects-section">
-    <h2 class="projects-section-header">These are some of my projects</h2>
-
-    <div class="projects-grid">
-      <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project project-tile">
-        <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
-          alt="project" />
-        <p class="project-title">
-          <span class="code">&lt;</span>
-          Tribute Page
-          <span class="code">&#47;&gt;</span>
-        </p>
-      </a>
-      
-    </div>
-
-    <a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all" target="_blank">Show all<i
-        class="fas fa-chevron-right"></i></a>
-  </section>
-
-  <!-- END PROJECTS SECTION -->
-
-  <!-- START CONTACT SECTION -->
-
-  <section id="contact" class="contact-section">
-    <div class="contact-section-header">
-      <h2>Let's work together...</h2>
-      <p>How do you take your coffee?</p>
-    </div>
-    <div class="contact-links">
-      <a href="https://facebook.com/freecodecamp" target="_blank" class="btn contact-details"><i
-          class="fab fa-facebook-square"></i> Facebook</a>
-      <a id="profile-link" href="https://github.com/freecodecamp" target="_blank" class="btn contact-details"><i
-          class="fab fa-github"></i> GitHub</a>
-      <a href="https://twitter.com/freecodecamp" target="_blank" class="btn contact-details"><i
-          class="fab fa-twitter"></i> Twitter</a>
-      <a href="mailto:example@example.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
-      <a href="tel:555-555-5555" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
-    </div>
-  </section>
-
-  <!-- END CONTACT SECTION -->
-
-  <!-- START FOOTER SECTION -->
-  <footer>
+  <header id="header">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Renhe👨🏻‍💻</title>
+  <script src="script.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
     <div class="container">
-      <span class="pull-left">&copy; 2022, Renhe</span>
-      <span class="pull-right">
-        <a href="#">
-          <i class="fa fa-arrow-circle-o-up"></i> Back to Top
-        </a>
-      </span>
+      <nav>
+        <ul class="nav">
+          <li><a href="#about">about</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<body>
+  
+  <!-- About me/start -->
+  <section class="about_me clearfix" id="about">
+    <div class="container">
+      <h2>I am Renhe</h2>
+      <div class="summary">
+        <div class="col-left">
+          <div class="avatar">
+            <img src="img/img1.jpg" alt="Renhe in NZ">
+          </div>
+        </div>
+
+        <div class="col-right">
+          <div class="personal-info">
+            <h3>Hi there 👋 </h3>
+            <p>  I am a post graduate student. As a junior developer， I look forward to new opportunities to grow in the field. </p>
+          </div>
+
+          <div class="skill">
+            <ul>
+              <li>html5 and css</li>
+              <li>javascript</li>
+              <li></li>
+            </ul>
+          </div>
+
+          <div class="button-gro。                 up">
+            <div class="download_cv">
+              <a href="">download CV</a>
+            </div>
+            <div class="hire_me">
+              <a href="">hire me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About me/End -->
+
+  <!-- Resume/Start -->
+  <section class="resume">
+    <div class="container">
+      <h2>resume</h2>
+
+      <div class="col-horizontal clearfix">
+        <h3 class="resume-subtitle">education:</h3>
+        <div class="col-item">
+          <p class="experience-year">
+            2001 - 2002
+          </p>
+          <div class="resume-detail">
+            <h4>computer science</h4>
+            <h6>google university, roc</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A repellat eaque deserunt illo non in veritatis
+              error doloremque minus dolor?</p>
+          </div>
+        </div>
+        <div class="col-item">
+          <p class="experience-year">
+            2002 - 2003
+          </p>
+          <div class="resume-detail">
+            <h4>google college</h4>
+            <h6>stanford university, BD</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo reprehenderit tempore eveniet, facere est
+              sunt atque. Assumenda quod adipisci ipsum!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-horizontal clearfix">
+        <h3 class="resume-subtitle">experience:</h3>
+        <div class="col-item">
+          <p class="experience-year">
+            2004 - 2005
+          </p>
+          <div class="resume-detail">
+            <h4>themeforest company, malibug</h4>
+            <h6>front end developer</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eaque quam eos sint ea odio sunt
+              repudiandae expedita ducimus aliquam.</p>
+          </div>
+        </div>
+        <div class="col-item">
+          <p class="experience-year">
+            2005 - 2007
+          </p>
+          <div class="resume-detail">
+            <h4>google company, roc</h4>
+            <h6>wordpress developer</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ad cum odit consequuntur eos
+              voluptatum? Dolorum distinctio consequatur cupiditate molestiae.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Resume/End -->
+  
+  <!-- Latest work/Start -->
+  <section class="works" id="portfolio">
+    <div class="container">
+      <h2>latest work</h2>
+
+      <div class="work-items clearfix">
+        <div class="col-work">
+          <a href="https://codepen.io/uu9924079/pen/dLGLyG" target="_blank">
+            <img src="https://i.imgur.com/ZvnoW8x.jpg" alt="portfolio-1">
+          </a>
+        </div>
+        <div class="col-work">
+          <a href="https://codepen.io/uu9924079/pen/RmmzBq?editors=1000" target="_blank">
+            <img src="https://i.imgur.com/dbpV4b8.jpg" alt="portfolio-2">
+          </a>
+        </div>
+        <div class="col-work">
+          <a href="https://codepen.io/uu9924079/pen/QPNXzg" target="_blank">
+            <img src="https://i.imgur.com/idd6kbM.jpg" alt="portfolio-3">
+          </a>
+        </div>
+        <div class="col-work">
+          <a href="https://codepen.io/uu9924079/pen/yWqNJx" target="_blank">
+            <img src="https://i.imgur.com/YmKiN8A.jpg" alt="portfolio-4">
+          </a>
+        </div>
+        <div class="col-work">
+          <a href="https://codepen.io/uu9924079/pen/WWxXao" target="_blank">
+            <img src="https://i.imgur.com/QlvQh7D.jpg" alt="portfolio-5">
+          </a>
+        </div>
+        <div class="col-work">
+          <a href="https://repl.it/@skankhunt42" target="_blank">
+            <img src="https://i.imgur.com/eJAUuoX.jpg" alt="portfolio-6">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Latest work/End -->
+  
+  <!-- Contant/Start -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>get in touch</h2>
+
+      <div class="contact-form">
+        <form action="">
+          <div class="form-input">
+            <input type="text" name="name" class="form-style" placeholder="input your name" required>
+          </div>
+          <div class="form-input">
+            <input type="email" name="email" class="form-style" placeholder="enter your email" required>
+          </div>
+          <div class="form-input">
+            <textarea name="textarea" id="message" cols="30" rows="10" placeholder="write down your message..."
+              required></textarea>
+          </div>
+
+          <div class="form-submit">
+            <input type="submit" name="submit" value="submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Contant/End -->
+  
+  <!-- Footer/Start -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2022 Renhe</p>
+        <div class="footer-social-icon">
+          <ul>
+            <li>
+<!--               <a href=""><i class="fab fa-facebook" aria-hidden="true"></i></a> -->
+<!--               <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a> -->
+              <a href=""><i class="fab fa-github-alt" aria-hidden="true"></i></a>
+<!--               <a href=""><i class="fab fa-skype" aria-hidden="true"></i></a> -->
+              <a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </footer>
+  <!-- Footer/End -->
 
-  <!-- END FOOTER SECTION -->
 </body>
 
 </html>
