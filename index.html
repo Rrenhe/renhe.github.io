@@ -1,210 +1,266 @@
 <!DOCTYPE html>
-<html>
-  <header id="header">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Renhe👨🏻‍💻</title>
-  <script src="script.js"></script>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-    <div class="container">
-      <nav>
-        <ul class="nav">
-          <li><a href="#about">about</a></li>
-          <li><a href="#portfolio">portfolio</a></li>
-          <li><a href="#contact">contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-<body>
-  
-  <!-- About me/start -->
-  <section class="about_me clearfix" id="about">
-    <div class="container">
-      <h2>I am Renhe</h2>
-      <div class="summary">
-        <div class="col-left">
-          <div class="avatar">
-            <img src="img/img1.jpg" alt="Renhe in NZ">
-          </div>
-        </div>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-        <div class="col-right">
-          <div class="personal-info">
-            <h3>Hi there 👋 </h3>
-            <p>  I am a post graduate student. As a junior developer， I look forward to new opportunities to grow in the field. </p>
-          </div>
+        <title>Renhe👨🏻‍💻</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Renhe</a>
+                </div>
 
-          <div class="skill">
-            <ul>
-              <li>html5 and css</li>
-              <li>javascript</li>
-              <li></li>
-            </ul>
-          </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-          <div class="button-gro。                 up">
-            <div class="download_cv">
-              <a href="">download CV</a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Kia Ora,<br>I'am <span class="home__title-color">Renhe</span><br>Postgraduate Student</h1>
+                  
+                    <a href="mailto:pangrenhe@outlook.com" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                  <a href="mailto:pangrenhe@outlook.com" class="home__social-icon"><i class='bx bx-envelope'></i></a>
+                  <a href="https://www.linkedin.com/in/renhepang/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a> 
+                    <a href="https://github.com/Rrenhe" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Renhe</h2>
+                        <p class="about__text">I am a post graduate student. As a junior developer. I look forward to pursuing new opportunities to grow in the field. </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">I am passionate about learning new things. My areas of interest are machine learning, data visualization, cybersecurity. Below are some of my tips.</p>
+<!-- html -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 bx-tada skills__icon'></i>
+                                <span class="skills__name">HTML5 / CSS</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+<!-- javascript-->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript bx-tada skills__icon' ></i>
+                                <span class="skills__name">JavaScritp</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+<!-- Git / Version Control   60-->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-git bx-tada skills__icon'></i>
+                                <span class="skills__name">Git</span>
+                            </div>
+                            <div class="skills__bar skills__git">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+<!-- SQL 60  -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-data bx-tada skills__icon'></i>
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__sql">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+<!-- Json 60 -->               
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-file-json bx-tada skills__icon'></i>
+                                <span class="skills__name">JSON</span>
+                            </div>
+                            <div class="skills__bar skills__json">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+<!-- CLI 60-->  
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-terminal bx-tada  skills__icon'></i>
+                                <span class="skills__name">CLI</span>
+                            </div>
+                            <div class="skills__bar skills__cli">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+<!-- AWS 50-->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-aws bx-tada skills__icon'></i>
+                                <span class="skills__name">AWS</span>
+                            </div>
+                            <div class="skills__bar skills__aws">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+<!-- docker 50-->
+<!--                         <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-docker bx-tada skills__icon'></i>
+                                <span class="skills__name">Docker</span>
+                            </div>
+                            <div class="skills__bar skills__docker">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div> -->
+<!-- debug 50-->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-bug bx-tada skills__icon'></i>
+                                <span class="skills__name">Debugging</span>
+                            </div>
+                            <div class="skills__bar skills__bug">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="https://www.freecodecamp.org/certification/Renhe/data-visualization" class="work__img">
+                        <img src="assets/img/vis.png" alt="">
+                    </a>
+                    <a href="https://www.freecodecamp.org/certification/Renhe/javascript-algorithms-and-data-structures" class="work__img">
+                        <img src="assets/img/java.png" alt="">
+                    </a>
+                    <a href="https://www.freecodecamp.org/certification/Renhe/responsive-web-design" class="work__img">
+                        <img src="assets/img/web.png" alt="">
+                    </a>
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/4G468VB2F5BF" class="work__img">
+                        <img src="assets/img/support.png" alt="">
+                    </a>
+
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Renhe</p>
+            <div class="footer__social"> 
+              <a href="mailto:pangrenhe@outlook.com" class="home__social-icon"><i class='bx bx-envelope'></i></a>
+                  <a href="https://www.linkedin.com/in/renhepang/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a> 
+                    <a href="https://github.com/Rrenhe" class="home__social-icon"><i class='bx bxl-github' ></i></a>
             </div>
-            <div class="hire_me">
-              <a href="">hire me</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- About me/End -->
+            <p class="footer__copy">Reneh</p>
+        </footer>
 
-  <!-- Resume/Start -->
-  <section class="resume">
-    <div class="container">
-      <h2>resume</h2>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-      <div class="col-horizontal clearfix">
-        <h3 class="resume-subtitle">education:</h3>
-        <div class="col-item">
-          <p class="experience-year">
-            2001 - 2002
-          </p>
-          <div class="resume-detail">
-            <h4>computer science</h4>
-            <h6>google university, roc</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A repellat eaque deserunt illo non in veritatis
-              error doloremque minus dolor?</p>
-          </div>
-        </div>
-        <div class="col-item">
-          <p class="experience-year">
-            2002 - 2003
-          </p>
-          <div class="resume-detail">
-            <h4>google college</h4>
-            <h6>stanford university, BD</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo reprehenderit tempore eveniet, facere est
-              sunt atque. Assumenda quod adipisci ipsum!</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-horizontal clearfix">
-        <h3 class="resume-subtitle">experience:</h3>
-        <div class="col-item">
-          <p class="experience-year">
-            2004 - 2005
-          </p>
-          <div class="resume-detail">
-            <h4>themeforest company, malibug</h4>
-            <h6>front end developer</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eaque quam eos sint ea odio sunt
-              repudiandae expedita ducimus aliquam.</p>
-          </div>
-        </div>
-        <div class="col-item">
-          <p class="experience-year">
-            2005 - 2007
-          </p>
-          <div class="resume-detail">
-            <h4>google company, roc</h4>
-            <h6>wordpress developer</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ad cum odit consequuntur eos
-              voluptatum? Dolorum distinctio consequatur cupiditate molestiae.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Resume/End -->
-  
-  <!-- Latest work/Start -->
-  <section class="works" id="portfolio">
-    <div class="container">
-      <h2>latest work</h2>
-
-      <div class="work-items clearfix">
-        <div class="col-work">
-          <a href="https://codepen.io/uu9924079/pen/dLGLyG" target="_blank">
-            <img src="https://i.imgur.com/ZvnoW8x.jpg" alt="portfolio-1">
-          </a>
-        </div>
-        <div class="col-work">
-          <a href="https://codepen.io/uu9924079/pen/RmmzBq?editors=1000" target="_blank">
-            <img src="https://i.imgur.com/dbpV4b8.jpg" alt="portfolio-2">
-          </a>
-        </div>
-        <div class="col-work">
-          <a href="https://codepen.io/uu9924079/pen/QPNXzg" target="_blank">
-            <img src="https://i.imgur.com/idd6kbM.jpg" alt="portfolio-3">
-          </a>
-        </div>
-        <div class="col-work">
-          <a href="https://codepen.io/uu9924079/pen/yWqNJx" target="_blank">
-            <img src="https://i.imgur.com/YmKiN8A.jpg" alt="portfolio-4">
-          </a>
-        </div>
-        <div class="col-work">
-          <a href="https://codepen.io/uu9924079/pen/WWxXao" target="_blank">
-            <img src="https://i.imgur.com/QlvQh7D.jpg" alt="portfolio-5">
-          </a>
-        </div>
-        <div class="col-work">
-          <a href="https://repl.it/@skankhunt42" target="_blank">
-            <img src="https://i.imgur.com/eJAUuoX.jpg" alt="portfolio-6">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Latest work/End -->
-  
-  <!-- Contant/Start -->
-  <section class="contact" id="contact">
-    <div class="container">
-      <h2>get in touch</h2>
-
-      <div class="contact-form">
-        <form action="">
-          <div class="form-input">
-            <input type="text" name="name" class="form-style" placeholder="input your name" required>
-          </div>
-          <div class="form-input">
-            <input type="email" name="email" class="form-style" placeholder="enter your email" required>
-          </div>
-          <div class="form-input">
-            <textarea name="textarea" id="message" cols="30" rows="10" placeholder="write down your message..."
-              required></textarea>
-          </div>
-
-          <div class="form-submit">
-            <input type="submit" name="submit" value="submit">
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-  <!-- Contant/End -->
-  
-  <!-- Footer/Start -->
-  <footer id="footer">
-    <div class="container">
-      <div class="footer-content">
-        <p>&copy; 2022 Renhe</p>
-        <div class="footer-social-icon">
-          <ul>
-            <li>
-<!--               <a href=""><i class="fab fa-facebook" aria-hidden="true"></i></a> -->
-<!--               <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a> -->
-              <a href=""><i class="fab fa-github-alt" aria-hidden="true"></i></a>
-<!--               <a href=""><i class="fab fa-skype" aria-hidden="true"></i></a> -->
-              <a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- Footer/End -->
-
-</body>
-
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+                              
+    </body>
 </html>
